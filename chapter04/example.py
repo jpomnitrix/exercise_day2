@@ -14,3 +14,11 @@ for x in range(1, 100):
 print(y)
 
 print([ii for ii in range(1, 11) if ii % 2 == 0])
+
+n = 1
+s = 0
+while n <= 100:
+    s += n
+    n += 2
+print(s)
+
